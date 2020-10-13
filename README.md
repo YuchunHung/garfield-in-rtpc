@@ -43,6 +43,7 @@ Change the magnitude of magnetic field -> Change
   The output file is rtpc_out.root
   
   > Analyze the rtpc_out.root
+  
      Run analysis.c in ROOT. 
      
   
