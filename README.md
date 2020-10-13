@@ -1,6 +1,6 @@
 # garfield-in-rtpc
 
-> A temporary note about executing the garfield++ in Nate's repository https://github.com/ndzbenski/garfield  
+> A temporary memo about executing the garfield++ in Nate's repository https://github.com/ndzbenski/garfield  
 > Follow the documetation in Nate's web page: https://userweb.jlab.org/~nathand/rgf/sim/garfieldpp.html
 
 RTPC.geo  -> The setting file of the geometry of the RTPC detector. Also, it can help us to create the grids based on this seetting. 
