@@ -21,4 +21,28 @@ to get the information of the electric field of the nodes.
 RTPC.sif  -> Define the physics to apply to the mesh. The boundary conditions (values of potentials) are implemented there.
 The output files are RTPC/RTPC.result, and RTPC/RTPC.ep. RTPC.result is an input file in the garfield. 
   
+RTPC.C -> Main file of the simulation. 
+
+makefile -> A compile file to get garf_RTPC
+
+Change the electric potential (boundary) -> change the setting in RTPC.sif
+  ! Cathode
+ Boundary Condition 1
+ Target Boundaries = 1
+ Potential = -4400
+ End
+ 
+Change the magnitude of magnetic field -> Change 
+    elm -> LoadMagneticField("Fieldmaps/solenoid_map_may2019.dat", 0.778); 
+  
+  
+> Run the simulation 
+<p> ./garf_RTPC [number of events] <p> 
+  where [number of events] is the number of events you want to simulate.
+  
+  The output file is rtpc_out.root
+  
+  > Analyze the rtpc_out.root
+     Run analysis.c in ROOT. 
+     
   
