@@ -37,7 +37,9 @@ Change the magnitude of magnetic field -> Change
   
   
 > Run the simulation 
-<p> ./garf_RTPC [number of events] <p> 
+<p> 
+  ./garf_RTPC [number of events] 
+<p> 
   where [number of events] is the number of events you want to simulate.
   
   The output file is rtpc_out.root
